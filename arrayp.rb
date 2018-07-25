@@ -1,18 +1,18 @@
-tvShow = []
-tvShow[0] = "Fringe"
-tvShow[1] = "Naruto"
-tvShow[2] = "Pokemon"
-tvShow[3] = "The Office"
-tvShow[4] = "Full House"
+tvShows = []
+tvShows[0] = "Fringe"
+tvShows[1] = "Naruto"
+tvShows[2] = "Pokemon"
+tvShows[3] = "The Office"
+tvShows[4] = "Full House"
 
-puts "#{tvShow[2]}"
-
-# I want to take an array with the above values
-# I want to loop through the entire array
+# I want to take an array with the above values 
+# I want to loop through (or go through the entire array)
 # I want to puts out the name of all the shows in the array currently
 
 position = 0
-while position < tvShow.size
-  puts "#{tvShow[position]}"
-  position = position + 1
+while position < tvShows.size
+  puts "#{tvShows[position]}"
+  position += 1
 end
+
+
