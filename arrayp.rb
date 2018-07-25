@@ -17,6 +17,6 @@ while position < array.size
   position = position + 1
 end
 
-array.each do |array|
+array.each do |tvShow|
   puts array
 end
