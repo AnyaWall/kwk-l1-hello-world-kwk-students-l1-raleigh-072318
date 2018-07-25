@@ -16,3 +16,7 @@ while position < tvShow.size
   puts "#{tvShow[position]}"
   position = position + 1
 end
+
+tvShow.each do |tvShow|
+  puts tvShow
+end
