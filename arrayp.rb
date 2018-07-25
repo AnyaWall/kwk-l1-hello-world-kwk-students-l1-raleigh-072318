@@ -11,11 +11,11 @@ puts "#{array[2]}"
 # I want to loop through the entire array
 # I want to puts out the name of all the shows in the array currently
 
-# position = 0
-# while position < array.size
-#   puts "#{array[position]}"
-#   position = position + 1
-# end
+position = 0
+while position < array.size
+  puts "#{array[position]}"
+  position = position + 1
+end
 
 array.each do |tvShow|
   puts array
